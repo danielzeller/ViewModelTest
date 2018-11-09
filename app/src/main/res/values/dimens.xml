@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="details_items_spacing">10dp</dimen>
+    <dimen name="default_page_padding">18dp</dimen>
+    <dimen name="action_button_margin">20dp</dimen>
+</resources>

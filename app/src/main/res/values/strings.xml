@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Friends</string>
+
+    <string name="error_network">Network error!</string>
+    <string name="error_generic">Uh oh something went wrong!</string>
+    <string name="name">Name</string>
+    <string name="user_name">User Name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="website">Website</string>
+    <string name="submit">Submit</string>
+    <string name="save_success"><![CDATA[Success! Having friends is awesome <3]]></string>
+    <string name="fill_in">Please fill in the %1$s value</string>
+    <string name="email_not_valid">That\'s not a valid email address ;)</string>
+</resources>

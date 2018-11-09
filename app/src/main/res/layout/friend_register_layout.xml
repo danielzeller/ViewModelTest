@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:id="@+id/scrollContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/default_page_padding">
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="@string/name"
+                android:ems="10"
+                android:id="@+id/nameEditText"
+                android:autofillHints="name"  />
+
+        <EditText
+                android:layout_marginTop="@dimen/details_items_spacing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="@string/user_name"
+                android:ems="10"
+                android:id="@+id/userNameEditText"
+                android:autofillHints="username"/>
+
+        <EditText
+                android:layout_marginTop="@dimen/details_items_spacing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:id="@+id/emailEditText"
+                android:hint="@string/email"
+                android:autofillHints="emailAddress"/>
+
+        <EditText
+                android:layout_marginTop="@dimen/details_items_spacing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:ems="10"
+                android:id="@+id/phoneEditText"
+                android:hint="@string/phone_number"
+                android:autofillHints="phone"/>
+
+        <EditText
+                android:layout_marginTop="@dimen/details_items_spacing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="@string/website"
+                android:ems="10"
+                android:id="@+id/webSiteEditText"
+                android:importantForAutofill="no"/>
+
+        <Button
+                android:text="@string/submit"
+                android:layout_marginTop="@dimen/details_items_spacing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/registerButton"/>
+    </LinearLayout>
+
+</ScrollView>
