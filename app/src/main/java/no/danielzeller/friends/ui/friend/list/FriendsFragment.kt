@@ -23,7 +23,7 @@ class FriendsFragment : FriendsViewModelFragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         rootView = inflater.inflate(R.layout.friends_fragment, container, false)
 
-        setupRecyclerView(rootView)
+        setupRecyclerView()
         setupRegisterButton()
         subscribeToFriends()
 
@@ -38,7 +38,7 @@ class FriendsFragment : FriendsViewModelFragment() {
         }
     }
 
-    private fun setupRecyclerView(rootView: View) {
+    private fun setupRecyclerView() {
         val linearLayoutManager = LinearLayoutManager(requireContext())
         friendsAdapter = FriendsAdapter(friendClickUnit)
 
